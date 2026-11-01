@@ -1,0 +1,30 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "user.precise-pos",
+	"name": "Precise Position",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Shows X/Y of selected objects in the editor and lets you set them with 7 decimal places.",
+	"settings": {
+		"panel-left": {
+			"type": "float",
+			"name": "Panel: distance from left",
+			"default": 5,
+			"min": 0,
+			"max": 600
+		},
+		"panel-top": {
+			"type": "float",
+			"name": "Panel: distance from top",
+			"default": 120,
+			"min": 0,
+			"max": 300
+		}
+	}
+}
